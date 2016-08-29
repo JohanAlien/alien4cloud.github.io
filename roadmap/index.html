@@ -183,66 +183,59 @@ $('#git-icon').tooltip();
       <div class="cbp_tmlabel">
         <h4>Core</h4>
         <ul>
-           <li>API versioning</li>
+           <li>Simplified API</li>
            <li>
-             Catalog Improvements
+             New version of the designer
              <ul>
-               <li>Portability insights - Premium</li>
+               <li>Advanced Git integration - Push modifications </li>
+               <li>Topology archive files upload/delete/edition (including topology yaml)</li>
+               <li>View modifications history on components and topologies</li>
+               <li>Save, Undo, Redo changes in the design view</li>
+               <li>Keyboard shortcuts</li>
+               <li>Manual Layout : Move and reposition components blocks in the design view</li>
              </ul>
            </li>
-           <li>
-             UI Improvements
+           <li>Workspace
              <ul>
-               <li>Location Resource Configuration: Provide suggestions for compute node configuration (os type, distribution, architecture, versions)</li>
-               <li>Design view: Improve visibility of mandatory properties in topology design view</li>
-               <li>Application navigation: Keep environnement context when switching from a screen to another</li>
-               <li>Runtime view: Display the deployment location</li>
-               <li>Runtime view: Display deployment errors informations from underlying orchestrator</li>
-               <li>Runtime view: Display deployment information from underlying orchestrator - Premium</li>
-             </ul>
-           </li>
-           <li>Policies
-             <ul>
-               <li>Multi zones placement policies: ability to manage HA or topology performance by associating nodes to zones</li>
-               <li>Configure post deployment (runtime) policy on a topology</li>
-               <li>Support for host failure policy</li>
+               <li>Upload, modify components and topologies in a logical space - Premium</li>
+               <li>Share component from your workspace with users, groups and public</li>
              </ul>
            </li>
            <li>Upgrade
              <ul>
-               <li>Ability to upgrade an artefact managed by application infrastructure - Premium</li>
-               <li>Upgrade component content and version without updating relationships - Premium</li>
+               <li>Support Advanced post-deployment updates with Cloudify 3.4 - Premium</li>
              </ul>
            </li>
            <li>Security
              <ul>
-               <li>SAML integration - Premium</li>
-               <li>Manage SSH Keys</li>
-               <li>Associate existing Security Groups to Compute</li>
+               <li>Secure All http connections within Cloudify 3.4 – Premium</li>
              </ul>
            </li>
         </ul>
         <h4>Orchestrators certifications</h4>
         <ul>
-          <li>Cloudify v3.3.1</li>
           <li>Cloudify v3.4 (subject to cloudify roadmap)</li>
-          <li>Apache Brooklyn beta</li>
         </ul>
         <h4>Infrastructure support</h4>
         <ul>
-           <li>OpenStack Icehouse and Kilo</li>
-           <li>Amazon EC2 VPC support - Premium</li>
-           <li>Azure (ARM) support (linux and windows compute, volumes, public ips and network, security groups, H.A. policy)</li>
-           <li>VMWare VSphere 5.5 (compute, volumes, networks) - Premium</li>
+           <li>Azure (ARM) support (linux and windows compute, volumes, public IPs and network, security groups, H.A. policy) - Premium</li>
+           <li>Mesos / Marathon</li>
+           <li>Docker</li>
+			<ul>
+				<li>Deploy container based topology relying on Mesos plugin or Cloudify Kubernetes plugin</li>
+				<li>Docker Registry integration – Premium</li>
+			</ul>
         </ul>
         <h4>TOSCA</h4>
         <ul>
           <li>Simple profile in YAML v1.0</li>
           <li>Support for alien 4 cloud 1.1 DSL</li>
+		  <li>Support Tosca List and Map types at input level</li>
+		  <li>Manage Artefact repositories (Maven integration - Premium)</li>
         </ul>
         <h4>Additional Premium features</h4>
         <ul>
-          <li>v1.1 to v1.2 Migration tools</li>
+          <li>v1.2 to v1.3 Migration tools</li>
         </ul>
       </div>
     </li>
@@ -263,7 +256,6 @@ $('#git-icon').tooltip();
         <h4>More orchestrators, infrastructures & artefacts coverage</h4>
         <ul>
           <li>Apache Brooklyn</li>
-          <li>Mesos / Marathon</li>
           <li>Ambari</li>
           <li>Google Cloud</li>
           <li>Docker</li>
@@ -272,6 +264,7 @@ $('#git-icon').tooltip();
         <ul>
           <li>TOSCA Types ui designer</li>
           <li>Application Lifecycle Management features & Promotion workflow</li>
+		  <li>Improved application password management</li>
           <li>Analytics and governance dashboards</li>
           <li>Simplified Self Service</li>
           <li>Social</li>
